@@ -1,0 +1,72 @@
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+
+.inner-wrapper {
+	background:000;	
+}
+
+.header {
+	margin-bottom:2px;	
+}
+
+.ssd {
+	font-size:80px;
+	color:#4D4D4D
+}
+
+.content {
+	background:#E4E4E4;
+	min-height:800px;
+	width:64%;
+	float:left;
+}
+
+.inner-sidebsr {
+	background:#E4E4E4;
+	width:35%;
+	min-height:800px;
+	float:left;
+	margin:2px;
+}
+
+h3 {
+	font-size:30px
+}
+
+p {
+	font-size:25px;
+	color:#585A5B;
+}
+
+#zag  {
+font-size:45px;
+}
+
+.inner-header {
+	background: url(img/320.png);
+	font-size:100px;
+}
+
+img  {
+ background: #ccc; overflow: hidden; 
+  width: 600px; height: ; 	strong:100px }
+  
+  .footer {
+	  background:#A0A0A0;
+	  font-size:25px;
+  }
+  
+ 
